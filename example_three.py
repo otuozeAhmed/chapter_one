@@ -6,6 +6,10 @@ class Python:
     def lang(self):
         return self.name + "Language"
     
+    def difficulty(self):
+        self.level = "hard"
+        return self.level
+    
 
 user = Python()
 print(user.lang())
